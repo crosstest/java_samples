@@ -1,0 +1,4 @@
+---
+tasks:
+  lint: gradle checkstyleMain
+

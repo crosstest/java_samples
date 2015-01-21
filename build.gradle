@@ -1,4 +1,10 @@
 apply plugin: 'java'
+apply plugin: 'checkstyle'
+
+repositories {
+  mavenCentral()
+}
+
 sourceSets {
     main {
         java {
